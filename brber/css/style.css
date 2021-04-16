@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*link, button, word style*/
+.text-primary {
+	color: #EB984E;
+}
+
+.btn {
+	display:inline-block;
+	font-size:18px;
+	color:#fff;
+	font-weight:500;
+	text-transform:uppercase;
+	background:#EB984E;
+}
+
+.btn:hover {
+	background: #FAD7A0;
+	color: #333;
+	transition: 3s;
+}
+
+
+
+/*extra*/
+
+.container {
+	max-width: 1400px;
+	margin: auto;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+
+
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background: #333;
+}
+
+#navbar {
+	background: url('../img/01.jpg') no-repeat center center/cover;
+	height: 100vh;
+	padding: 40px;
+	overflow: hidden;
+}
+
+
+
+#navbar h1 {
+	float: left;
+	padding-top: 20px;
+	font-size: 40px;
+	margin-left: 4px;
+	overflow: hidden;
+	position: relative;
+}
+
+#navbar .text-primary {
+	font-size: 50px;
+}
+
+#navbar ul {
+	float: right;
+	list-style: none;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	padding: 20px;
+	display: block;
+	text-align: center;
+}
+
+#navbar .aside {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	/*background-color: rgba(0,0,0,0.4);*/
+	background: #EB984E;
+	height: 30%;
+}
